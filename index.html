@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jogo de Stop</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Jogo de Stop</h1>
+  <button onclick="iniciarJogo()">Iniciar Jogo</button>
+
+  <h2>Letra sorteada:</h2>
+  <p id="letraSorteada" class="letra-sorteada"></p>
+
+  <h2>Categorias:</h2>
+  <div id="categorias">
+    <div class="categoria" id="categoriaNomes">
+      Nomes: <input type="text" id="inputNomes" value="">
+    </div>
+    <div class="categoria" id="categoriaFrutas">
+      Frutas: <input type="text" id="inputFrutas" value="">
+    </div>
+    <div class="categoria" id="categoriaPaises">
+      Países: <input type="text" id="inputPaises" value="">
+    </div>
+    <div class="categoria" id="categoriaAnimais">
+      Animais: <input type="text" id="inputAnimais" value="">
+    </div>
+    <div class="categoria" id="categoriaMarcas">
+      Marcas: <input type="text" id="inputMarcas" value="">
+    </div>
+    <div class="categoria" id="categoriaProfissoes">
+      Profissões: <input type="text" id="inputProfissoes" value="">
+    </div>
+    <div class="categoria" id="categoriaCores">
+      Cores: <input type="text" id="inputCores" value="">
+    </div>
+    <div class="categoria" id="categoriaCarros">
+      Carros: <input type="text" id="inputCarros" value="">
+    </div>
+    <div class="categoria" id="categoriaFilmes">
+      Filmes: <input type="text" id="inputFilmes" value="">
+    </div>
+    <div class="categoria" id="categoriaComidas">
+      Comidas: <input type="text" id="inputComidas" value="">
+    </div>
+  </div>
+
+  <button onclick="verificarPalavras()">Verificar Palavras</button>
+
+  
+  <div id="historico" class="historico-pontuacao">
+    <h3>Histórico de Pontuações:</h3>
+    <ol id="lista-pontuacoes">
+
+  <div id="cronometro"class="cronometro-box"></div>
+
+  <div id="pontuacao" class="pontuacao-popup"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
