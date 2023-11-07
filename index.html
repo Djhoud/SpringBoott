@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Jogo de Stop</title>
+  <title class="escrita">Jogo de Stop</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-  <h1>Jogo de Stop</h1>
+  <div class="container">
+  
+  <h1 class="escrita">Jogo de Stop</h1>
   <button onclick="iniciarJogo()">Iniciar Jogo</button>
 
-  <h2>Letra sorteada:</h2>
+  <h2 class="escrita">Letra sorteada:</h2>
   <p id="letraSorteada" class="letra-sorteada"></p>
 
-  <h2>Categorias:</h2>
+
   <div id="categorias">
     <div class="categoria" id="categoriaNomes">
       Nomes: <input type="text" id="inputNomes" value="">
@@ -55,7 +57,7 @@
   <div id="cronometro"class="cronometro-box"></div>
 
   <div id="pontuacao" class="pontuacao-popup"></div>
-
+</div>
   <script src="script.js"></script>
 </body>
 </html>

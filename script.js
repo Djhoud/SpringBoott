@@ -19,7 +19,7 @@ function iniciarJogo() {
     input.disabled = false;
   });
 
-  startTimer(30);
+  startTimer(45);
 }
 
 function verificarPalavras() {
@@ -87,7 +87,7 @@ function exibirPontuacao(acertos, erros) {
 
   setTimeout(function () {
     pontuacaoElement.classList.remove('show');
-  }, 3000);
+  }, 4500);
 
   atualizarHistorico(acertos, erros);
 }
