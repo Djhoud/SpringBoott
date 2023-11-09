@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #9BF2EA;
+  color: #260101;
+}
+
+.container {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:  #2A8C82;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+#categorias {
+  text-align: center; /* Alinha as categorias ao centro */
+}
+
+
+.escrita {
+  font-family: 'SuaFonte', sans-serif;
+  color: #ffffff;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #41BFB3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #275950;
+}
+
+.categoria {
+  display: inline-block;
+  width: 230px; /* Defina a largura desejada */
+  height: 70px; /* Defina a altura desejada */
+color: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  background-color: #275950;
+}
+
+.categoria input[type="text"] {
+  width: 90%; /* Defina a largura desejada para os inputs */
+  margin-top: 5px;
+  padding: 12px; /* Ajuste o preenchimento conforme necessário */
+  box-sizing: border-box;
+  border: 1px solid #275950;
+  border-radius: 5px;
+}
+
+
+
+.cronometro-box {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #41BFB3;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pontuacao-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #6f42c1;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+
+.pontuacao-popup.show {
+  display: block;
+}
+
+.historico-pontuacao {
+  margin-top: 20px;
+  text-align: left;
+}
+
+#lista-pontuacoes {
+  list-style-type: none;
+  padding: 0;
+}
+
+#lista-pontuacoes li {
+  margin-bottom: 5px;
+}
+
+.letraDestaque {
+  font-weight: bold; /* Adiciona peso à fonte para dar destaque */
+  font-size: 36px; /* Ajusta o tamanho da fonte para destacar mais */
+  color: #FF5733; /* Altera a cor para uma cor mais destacada */
+}
