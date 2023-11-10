@@ -23,7 +23,6 @@ body {
   text-align: center; /* Alinha as categorias ao centro */
 }
 
-
 .escrita {
   font-family: 'SuaFonte', sans-serif;
   color: #ffffff;
@@ -52,7 +51,7 @@ button:hover {
   display: inline-block;
   width: 230px; /* Defina a largura desejada */
   height: 70px; /* Defina a altura desejada */
-color: #ffffff;
+  color: #ffffff;
   border-radius: 5px;
   padding: 5px;
   margin: 5px;
@@ -67,8 +66,6 @@ color: #ffffff;
   border: 1px solid #275950;
   border-radius: 5px;
 }
-
-
 
 .cronometro-box {
   position: absolute;
@@ -98,24 +95,4 @@ color: #ffffff;
 
 .pontuacao-popup.show {
   display: block;
-}
-
-.historico-pontuacao {
-  margin-top: 20px;
-  text-align: left;
-}
-
-#lista-pontuacoes {
-  list-style-type: none;
-  padding: 0;
-}
-
-#lista-pontuacoes li {
-  margin-bottom: 5px;
-}
-
-.letraDestaque {
-  font-weight: bold; /* Adiciona peso à fonte para dar destaque */
-  font-size: 36px; /* Ajusta o tamanho da fonte para destacar mais */
-  color: #FF5733; /* Altera a cor para uma cor mais destacada */
 }
