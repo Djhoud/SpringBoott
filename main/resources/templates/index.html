@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title class="escrita">Jogo de Stop</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="escrita" style="font-size: 36px; color: #260101; text-align: center; margin-top: 30px;">Jogo de Stop</h1>
+    <button onclick="iniciarJogo()">Iniciar Jogo</button>
+
+    <h2 class="escrita" style="text-align: center; font-size: 24px; margin-top: 20px;">
+      Letra sorteada: <span id="letraSorteada" class="letraDestaque"></span>
+    </h2>
+
+    <div id="categorias" style="text-align: center;">
+      <div class="categoria" id="categoriaNomes">
+        Nomes: <input type="text" id="inputNomes" value="">
+      </div>
+      <div class="categoria" id="categoriaFrutas">
+        Frutas: <input type="text" id="inputFrutas" value="">
+      </div>
+      <div class="categoria" id="categoriaPaises">
+        Países: <input type="text" id="inputPaises" value="">
+      </div>
+      <div class="categoria" id="categoriaAnimais">
+        Animais: <input type="text" id="inputAnimais" value="">
+      </div>
+      <div class="categoria" id="categoriaMarcas">
+        Marcas: <input type="text" id="inputMarcas" value="">
+      </div>
+      <div class="categoria" id="categoriaProfissoes">
+        Profissões: <input type="text" id="inputProfissoes" value="">
+      </div>
+      <div class="categoria" id="categoriaCores">
+        Cores: <input type="text" id="inputCores" value="">
+      </div>
+      <div class="categoria" id="categoriaCarros">
+        Carros: <input type="text" id="inputCarros" value="">
+      </div>
+      <div class="categoria" id="categoriaFilmes">
+        Filmes: <input type="text" id="inputFilmes" value="">
+      </div>
+      <div class="categoria" id="categoriaComidas">
+        Comidas: <input type="text" id="inputComidas" value="">
+      </div>
+    </div>
+
+    <button onclick="verificarPalavras()">Verificar Palavras</button>
+
+    <div id="pop-up" class="pontuacao-popup"></div>
+
+    <div id="cronometro" class="cronometro-box"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
